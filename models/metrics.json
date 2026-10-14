@@ -1,0 +1,90 @@
+{
+ "best_model": "로지스틱 회귀",
+ "models": {
+  "로지스틱 회귀": {
+   "auc": 0.7958,
+   "accuracy": 0.7309
+  },
+  "그래디언트 부스팅": {
+   "auc": 0.7898,
+   "accuracy": 0.718
+  }
+ },
+ "n_train": 4336,
+ "n_test": 1085,
+ "base_rate": 0.5545,
+ "importance": [
+  {
+   "feature": "나이",
+   "importance": 0.1421
+  },
+  {
+   "feature": "크기",
+   "importance": 0.0421
+  },
+  {
+   "feature": "성격·건강: 치료필요",
+   "importance": 0.0229
+  },
+  {
+   "feature": "품종 유형",
+   "importance": 0.0191
+  },
+  {
+   "feature": "성격·건강: 친화",
+   "importance": 0.0063
+  },
+  {
+   "feature": "연령대",
+   "importance": 0.006
+  },
+  {
+   "feature": "중성화",
+   "importance": 0.0043
+  },
+  {
+   "feature": "지역",
+   "importance": 0.0036
+  },
+  {
+   "feature": "성격·건강: 소심",
+   "importance": 0.0036
+  },
+  {
+   "feature": "성격·건강: 아이친화",
+   "importance": 0.0029
+  },
+  {
+   "feature": "성격·건강: 짖음",
+   "importance": 0.0029
+  },
+  {
+   "feature": "성별",
+   "importance": 0.0006
+  },
+  {
+   "feature": "종",
+   "importance": 0.0004
+  },
+  {
+   "feature": "체중",
+   "importance": 0.0004
+  },
+  {
+   "feature": "성격·건강: 훈련됨",
+   "importance": 0.0003
+  },
+  {
+   "feature": "성격·건강: 활발",
+   "importance": 0.0
+  },
+  {
+   "feature": "성격·건강: 동물친화",
+   "importance": -0.0
+  },
+  {
+   "feature": "성격·건강: 차분",
+   "importance": -0.0002
+  }
+ ]
+}
