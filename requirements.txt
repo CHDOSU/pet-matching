@@ -1,6 +1,6 @@
-streamlit
-pandas
-requests
-scikit-learn
-joblib
-anthropic
+streamlit==1.65.0
+pandas==3.0.6
+requests==2.34.2
+scikit-learn==1.9.1
+joblib==1.6.0
+anthropic==1.13.0
